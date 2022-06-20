@@ -5,9 +5,7 @@ const submit = (event) => {
     event.preventDefault();
     let fname = document.querySelector('[name="fname"]');
     let lname = document.querySelector('[name="lname"]');
-    console.log(fname);
-    console.log(lname);
-
+    console.log(`Imię: ${fname.value}  Nazwisko: ${lname.value}`);
 }
 
-form.addEventListener('click', submit)
+form.addEventListener('click', submit);
